@@ -1,0 +1,27 @@
+body {
+  font: 100% Arial, sans-serif;
+  color: #ffffff;
+  background: #36465d;
+}
+#main {
+  width: 80%;
+  margin: auto;
+}
+#logo {
+  margin: 180px auto 20px;
+  font-size: 2rem;
+  text-align: center;
+}
+input, button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+}
+button {
+  color: #ffffff;
+  background: #529ecc;
+  font-weight: bold;
+  margin-top: 10px;
+}

@@ -1,0 +1,21 @@
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+  <title>$gatewayname</title>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <main id="main">
+    <div id="logo">輸入密碼以繼續</div>
+    <form id="rform" method="get" action="$authaction">
+      <input type="hidden" name="tok" value="$tok">
+      <input type="hidden" name="redir" value="$redir">
+      <input type="password" name="password" placeholder="密碼" readonly onfocus="this.removeAttribute('readonly')" onblur="this.setAttribute('readonly', true)">
+      <button type="submit" id="submit">提交</button>
+    </form>
+  </main>
+</body>
+</html>
